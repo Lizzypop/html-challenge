@@ -1,2 +1,2 @@
-# html-challenge
+# zaio-challenges
 HTML Challenge zaio
