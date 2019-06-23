@@ -8,35 +8,7 @@ HTML Challenge zaio
     <head>
         <meta charset="utf-8"/>
         <title>HTML Challenge</title>
-        <style>
-            body p{
-                font-size: 14px;
-            }
-            #textbox{
-                width:100px;
-                height:14px;
-                border:1px solid #000;
-                display:inline-block;
-            }
-            
-            #button{
-                width:10px;
-                height:10px;
-                border:1px solid #000;
-                border-radius:10px;
-                display:inline-block;
-            }
-            
-            #submit{
-                 width:60px;
-                height:20px;
-                border:1px solid #000;
-                border-radius:10px;
-                display:inline-block;
-                padding:2px;
-                text-align:center;
-            }
-        </style>
+        
     </head>
     
     <body>
@@ -47,15 +19,17 @@ HTML Challenge zaio
         <div id="information">
             <p>Please enter your information below</p>
             <div id="information">
-                <p>Name:  <span id="textbox"></span></p>
+                <p>Name: <input type="text" name="Name"></p>
                 
-                <p>Surname:  <span id="textbox"></span></p>
-                <p>Gender: male:  <span id="button"></span>  female:   <span id="button"></span> </p>
+                <p>Surname:<input type="text" name="Surname"></p>
+                <p>Gender: male:<input type="radio"> female:   <input type="radio"> </p>
             </div>
             
             <div id="submit">
-                <span>Submit</span>
+                <input type="submit" value="Submit">
             </div>
         </div>
+    </body>
+</html>
     </body>
 </html>
